@@ -29,5 +29,5 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK }}
           message: This is to test slack messaging from GitHub Actions
-          slack: 200
+          status: 200
           
